@@ -1,0 +1,35 @@
+/*content*/
+.landing{
+	background: url("../img/Teal-Background.png") #103d50 70% 30% no-repeat!important;
+}
+.landing.segment {
+	min-height: 657px;
+	padding: 0em 0em;
+}
+.transbg {
+min-height: 657px;
+background: rgba(32,154,189,0.300);
+}
+.menu {
+	border: 0px!important;
+}
+.landing h1.ui.header{
+	margin-top: 1em;
+	margin-bottom: 0.11em;
+	font-weight: 100;
+}
+.findbg{
+	padding: 1em,1.5em;
+	width: 100%;
+	height: 100%;
+	background: rgba(255,255,255,0.7);
+}
+@media only screen and (max-width: 767px) {
+	.secondary.pointing.menu .item,
+	.secondary.pointing.menu .menu {
+		display: none;
+	}
+	.secondary.pointing.menu .toc.item {
+		display: block;
+	}
+}
